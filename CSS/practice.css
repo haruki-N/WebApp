@@ -1,0 +1,33 @@
+h1, p {/* 複数要素指定 */
+    color: red;
+}
+
+div p{/* 入れ子構造を指定 */
+    color: blue;
+    background-image: url("IMG_5789.JPG");
+    background-size: 60%;
+    background-repeat: no-repeat;
+    height: 100px;
+}
+
+h2:hover {/*hover時の擬似クラス */
+    color: green;
+}
+
+#css {
+    background-color: yellow;
+    color: blue;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+img {
+    width: 100%;
+}
+
+.margin {
+    border: solid red;
+    padding: 50px 30px 70px 50px;
+    margin-top: 100px;
+}
